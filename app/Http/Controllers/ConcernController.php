@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Concern;
+use App\Models\Concern\Concern;
 use App\Http\Requests\StoreConcernRequest;
 use App\Http\Requests\UpdateConcernRequest;
 
@@ -12,14 +12,6 @@ class ConcernController extends Controller
      * Display a listing of the resource.
      */
     public function index()
-    {
-        //
-    }
-
-    /**
-     * Show the form for creating a new resource.
-     */
-    public function create()
     {
         //
     }
@@ -36,14 +28,6 @@ class ConcernController extends Controller
      * Display the specified resource.
      */
     public function show(Concern $concern)
-    {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     */
-    public function edit(Concern $concern)
     {
         //
     }
