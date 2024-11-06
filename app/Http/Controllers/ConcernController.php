@@ -21,7 +21,7 @@ class ConcernController extends Controller
      */
     public function store(StoreConcernRequest $request)
     {
-        //
+        dd("Test");
     }
 
     /**
